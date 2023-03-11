@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+.page-container {
+  /* display: grid; */
+  max-width: 80%;
+  box-shadow: 0 0 2px 2px rgba(222, 222, 222, 0.7);
+  /* background: red; */
+}
+.content-container {
+  background: pink;
+  display: flex;
+}
+.left-container {
+  width: 65%;
+  /* height: 100px; */
+  background: blue;
+}
+.right-container {
+  width: 35%;
+  /* height: 500px; */
+  background: red;
+}
+.profile-container {
+  display: flex;
+  justify-content: center;
+}
+
+.userlist {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background: purple;
+  list-style-type: none;
+  color: white;
+}
+.userProfile {
+  /* margin: 20px; */
+  text-align: center;
+}
+.userProfile .img {
+  width: 120px;
+  height: 120px;
+  background: white;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
